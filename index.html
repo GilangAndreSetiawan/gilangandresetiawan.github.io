@@ -140,18 +140,18 @@
 
 
 
-        <!-- HERO IMAGE -->
+       <!-- HERO IMAGE -->
 
-        <div class="hero-image">
+<div class="hero-image">
 
-            <img
-                src="assets/images/my photo.png"
-                alt="Gilang Andre"
-            >
+    <img
+        src="assets/images/my photo.png"
+        alt="Gilang Andre"
+    >
 
-        </div>
+</div>
 
-    </div>
+</div>
 
 </section>
 
@@ -606,61 +606,93 @@
 
         <article class="project-card">
 
-            <div
+            <a
+                href="#"
                 class="project-media automotive-trigger"
             >
 
                 <img
                     src="assets/images/Automotive.jpeg"
-                    alt="Automotive"
+                    alt="Automotive Visuals"
                 >
 
-                <div class="project-overlay">
+                <div class="project-overlay"></div>
+
+
+                <div class="project-top">
 
                     <span>
-                        PROJECT 04
-                    </span>
-
-                    <h3>
-                        AUTOMOTIVE
-                    </h3>
-
-                    <p>
-                        Luxury automotive content focused
-                        on cinematic visuals, detail, and performance.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-info">
-
-                <div>
-
-                    <span class="project-number">
                         04
                     </span>
 
-                    <h4>
+                    <span>
                         AUTOMOTIVE
-                    </h4>
+                    </span>
 
                 </div>
 
 
-                <div class="project-result">
+                <div class="project-play">
+                    ▶
+                </div>
+
+
+                <div class="project-bottom">
+
+                    <span>
+                        AUTOMOTIVE VISUALS
+                    </span>
 
                     <span>
                         3 VIDEOS
                     </span>
 
-                    <button class="automotive-trigger">
-                        VIEW VIDEOS →
-                    </button>
+                </div>
+
+            </a>
+
+
+
+            <div class="project-info">
+
+                <div class="project-category">
+                    AUTOMOTIVE
+                </div>
+
+
+                <h2>
+                    Automotive
+                    <br>
+                    Visuals
+                </h2>
+
+
+                <p>
+                    Cinematic automotive content focused
+                    on motion, atmosphere, visual composition
+                    and premium storytelling.
+                </p>
+
+
+                <div class="project-result">
+
+                    <span>
+                        ROLE
+                    </span>
+
+                    <strong>
+                        Video Editor
+                    </strong>
 
                 </div>
+
+
+                <a
+                    href="#"
+                    class="project-link automotive-trigger"
+                >
+                    VIEW VIDEOS →
+                </a>
 
             </div>
 
@@ -674,61 +706,93 @@
 
         <article class="project-card">
 
-            <div
+            <a
+                href="#"
                 class="project-media transportation-trigger"
             >
 
                 <img
                     src="assets/images/transportation.jpg"
-                    alt="Transportation"
+                    alt="Transportation Visuals"
                 >
 
-                <div class="project-overlay">
+                <div class="project-overlay"></div>
+
+
+                <div class="project-top">
 
                     <span>
-                        PROJECT 05
-                    </span>
-
-                    <h3>
-                        TRANSPORTATION
-                    </h3>
-
-                    <p>
-                        Visual content focused on transportation,
-                        movement, and cinematic storytelling.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-info">
-
-                <div>
-
-                    <span class="project-number">
                         05
                     </span>
 
-                    <h4>
+                    <span>
                         TRANSPORTATION
-                    </h4>
+                    </span>
 
                 </div>
 
 
-                <div class="project-result">
+                <div class="project-play">
+                    ▶
+                </div>
+
+
+                <div class="project-bottom">
+
+                    <span>
+                        TRANSPORTATION
+                    </span>
 
                     <span>
                         7 VIDEOS
                     </span>
 
-                    <button class="transportation-trigger">
-                        VIEW VIDEOS →
-                    </button>
+                </div>
+
+            </a>
+
+
+
+            <div class="project-info">
+
+                <div class="project-category">
+                    TRANSPORTATION
+                </div>
+
+
+                <h2>
+                    Transportation
+                    <br>
+                    Visuals
+                </h2>
+
+
+                <p>
+                    Visual storytelling for transportation content,
+                    combining cinematic footage, clean editing
+                    and engaging visual pacing.
+                </p>
+
+
+                <div class="project-result">
+
+                    <span>
+                        ROLE
+                    </span>
+
+                    <strong>
+                        Video Editor
+                    </strong>
 
                 </div>
+
+
+                <a
+                    href="#"
+                    class="project-link transportation-trigger"
+                >
+                    VIEW VIDEOS →
+                </a>
 
             </div>
 
@@ -1088,38 +1152,35 @@
     id="automotiveModal"
 >
 
-    <div class="showcase-container">
+    <button
+        class="showcase-modal-close"
+        id="automotiveModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
 
 
-        <div class="showcase-header">
-
-            <div>
-
-                <span>
-                    PROJECT 04
-                </span>
-
-                <h2>
-                    AUTOMOTIVE
-                </h2>
-
-            </div>
+    <div class="showcase-modal-content">
 
 
-            <button class="showcase-close">
-                &times;
-            </button>
+        <div class="showcase-heading">
+
+            <span>
+                AUTOMOTIVE
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
 
         </div>
-
 
 
         <div class="showcase-grid">
 
 
-            <!-- AUTOMOTIVE 01 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788621664/automotive-01.mp4"
             >
@@ -1132,26 +1193,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    01
+                </span>
 
-                    <span>
-                        01
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        AUTOMOTIVE VISUAL 01
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- AUTOMOTIVE 02 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622326/automotive-02.mp4"
             >
@@ -1164,26 +1228,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    02
+                </span>
 
-                    <span>
-                        02
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        AUTOMOTIVE VISUAL 02
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- AUTOMOTIVE 03 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622447/automotive-03.mp4"
             >
@@ -1196,21 +1263,25 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    03
+                </span>
 
-                    <span>
-                        03
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        AUTOMOTIVE VISUAL 03
+                    </small>
+
                 </div>
 
-            </div>
-
+            </button>
 
         </div>
 
@@ -1229,38 +1300,35 @@
     id="transportationModal"
 >
 
-    <div class="showcase-container">
+    <button
+        class="showcase-modal-close"
+        id="transportationModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
 
 
-        <div class="showcase-header">
-
-            <div>
-
-                <span>
-                    PROJECT 05
-                </span>
-
-                <h2>
-                    TRANSPORTATION
-                </h2>
-
-            </div>
+    <div class="showcase-modal-content">
 
 
-            <button class="showcase-close">
-                &times;
-            </button>
+        <div class="showcase-heading">
+
+            <span>
+                TRANSPORTATION
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
 
         </div>
-
 
 
         <div class="showcase-grid">
 
 
-            <!-- TRANSPORTATION 01 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622544/transportation-01.mp4"
             >
@@ -1273,26 +1341,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    01
+                </span>
 
-                    <span>
-                        01
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 01
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 02 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622639/transportation-02.mp4"
             >
@@ -1305,26 +1376,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    02
+                </span>
 
-                    <span>
-                        02
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 02
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 03 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622863/transportation-03.mp4"
             >
@@ -1337,26 +1411,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    03
+                </span>
 
-                    <span>
-                        03
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 03
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 04 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622971/transportation-04.mp4"
             >
@@ -1369,26 +1446,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    04
+                </span>
 
-                    <span>
-                        04
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 04
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 05 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788623051/transportation-05.mp4"
             >
@@ -1401,26 +1481,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    05
+                </span>
 
-                    <span>
-                        05
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 05
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 06 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788623149/transportation-06.mp4"
             >
@@ -1433,26 +1516,29 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    06
+                </span>
 
-                    <span>
-                        06
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 06
+                    </small>
+
                 </div>
 
-            </div>
+            </button>
 
 
 
-            <!-- TRANSPORTATION 07 -->
-
-            <div
+            <button
                 class="showcase-card"
                 data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788623241/transportation-07.mp4"
             >
@@ -1465,21 +1551,25 @@
                     preload="metadata"
                 ></video>
 
+                <div class="showcase-overlay"></div>
 
-                <div class="showcase-overlay">
+                <span class="showcase-number">
+                    07
+                </span>
 
-                    <span>
-                        07
-                    </span>
+                <div class="showcase-info">
 
                     <strong>
                         WATCH VIDEO
                     </strong>
 
+                    <small>
+                        TRANSPORTATION VISUAL 07
+                    </small>
+
                 </div>
 
-            </div>
-
+            </button>
 
         </div>
 
@@ -1520,5 +1610,4 @@
 <script src="script.js"></script>
 
 </body>
-
 </html>
