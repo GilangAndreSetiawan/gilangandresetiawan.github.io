@@ -307,6 +307,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
+    /* =====================================================
+   SHOWCASE BACK BUTTON
+===================================================== */
+
+const showcaseBackButtons =
+    document.querySelectorAll(".showcase-back");
+
+showcaseBackButtons.forEach((button) => {
+
+    button.addEventListener("click", (event) => {
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        const modal =
+            button.closest(".showcase-modal");
+
+        if (!modal) return;
+
+        closeShowcase(modal);
+
+    });
+
+});
+
 
     /* =====================================================
        PROJECT 04 — AUTOMOTIVE
