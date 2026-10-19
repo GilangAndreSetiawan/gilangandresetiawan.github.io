@@ -29,7 +29,7 @@
     >
 
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Michroma&display=swap"
         rel="stylesheet"
     >
 
@@ -38,10 +38,18 @@
         href="style.css"
     >
 
+    <link
+        rel="icon"
+        type="image/png"
+        href="assets/images/logo-fox.png"
+    >
+
 </head>
 
 
 <body>
+
+
 
 
 <!-- =====================================================
@@ -55,8 +63,44 @@
         <a
             href="#home"
             class="logo"
+            aria-label="Gilang Andre — Home"
         >
-            GA
+
+            <span class="fox-logo">
+
+                <img
+                    src="assets/images/logo-fox.png"
+                    alt=""
+                    width="470"
+                    height="470"
+                >
+
+                <svg
+                    class="fox-eyes"
+                    viewBox="0 0 470 470"
+                    aria-hidden="true"
+                    focusable="false"
+                >
+
+                    <defs>
+                        <filter id="fox-eye-glow-nav" x="-50%" y="-80%" width="200%" height="260%">
+                            <feGaussianBlur stdDeviation="4" result="blur"/>
+                            <feMerge>
+                                <feMergeNode in="blur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+
+                    <g filter="url(#fox-eye-glow-nav)">
+                        <path class="fox-eye" d="M141,265 C152,263 162,264 168,269 C176,274 184,280 189,287 C193,292 196,297 198,301 C190,300 180,296 172,291 C162,285 154,279 149,272 C146,269 143,267 141,265 Z"/>
+                        <path class="fox-eye" d="M331,265 C320,263 310,264 304,269 C296,274 288,280 283,287 C279,292 276,297 274,301 C282,300 292,296 300,291 C310,285 318,279 323,272 C326,269 329,267 331,265 Z"/>
+                    </g>
+
+                </svg>
+
+            </span>
+
         </a>
 
         <nav class="nav-menu">
@@ -102,7 +146,7 @@
         <div class="hero-content">
 
             <div class="eyebrow">
-                VIDEO EDITOR / SHORT-FORM CONTENT
+                VIDEO EDITOR / SHORT-LONG CONTENT
             </div>
 
 
@@ -120,10 +164,11 @@
 
             <div class="hero-categories">
 
-                <span>Luxury Lifestyle</span>
-                <span>Interior</span>
+                <span>Fashion</span>
+                <span>Property</span>
                 <span>Automotive</span>
-                <span>Travel</span>
+                <span>Travel & Event</span>
+                <span>Motion</span>
                 <span>Business</span>
 
             </div>
@@ -187,25 +232,25 @@
             <div class="about-main">
 
                 <p class="about-intro">
-                    I create short-form content designed
-                    to capture attention, communicate
-                    visually, and leave an impression.
+                    A video editor with 3 years of experience
+                    in visual storytelling, creating everything
+                    from short-form content for TikTok and
+                    Instagram to long-form videos, including
+                    events, travel, and storytelling projects.
                 </p>
 
 
                 <p class="about-text">
-                    With 8+ years of work experience since
-                    2018, I have worked across video editing,
-                    content production, administration, and
-                    operational supervision.
+                    Specializing in fashion, automotive, travel,
+                    property, event and business content, with a
+                    focus on creative, polished, and purposeful
+                    editing.
                 </p>
 
 
                 <p class="about-text">
-                    My main focus is video editing and
-                    short-form content for TikTok and
-                    Instagram, especially in luxury lifestyle,
-                    interior, automotive, travel, and business.
+                    Explore my portfolio to discover my work
+                    and editing style.
                 </p>
 
             </div>
@@ -217,7 +262,7 @@
                 <div class="stat">
 
                     <strong>
-                        8+
+                        3+
                     </strong>
 
                     <span>
@@ -295,10 +340,8 @@
         <article class="project-card">
 
             <a
-                href="https://www.tiktok.com/@lux_frame1/video/7673145643053157639"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="project-media"
+                href="#"
+                class="project-media fashion-trigger"
             >
 
                 <img
@@ -316,7 +359,7 @@
                     </span>
 
                     <span>
-                        TIKTOK
+                        FASHION
                     </span>
 
                 </div>
@@ -330,11 +373,11 @@
                 <div class="project-bottom">
 
                     <span>
-                        LUXURY LIFESTYLE
+                        FASHION
                     </span>
 
                     <span>
-                        852K+
+                        4 VIDEOS
                     </span>
 
                 </div>
@@ -346,12 +389,12 @@
             <div class="project-info">
 
                 <div class="project-category">
-                    LUXURY LIFESTYLE
+                    FASHION
                 </div>
 
 
                 <h2>
-                    Luxury Lifestyle
+                    Fashion
                     <br>
                     Content
                 </h2>
@@ -359,9 +402,9 @@
 
                 <p>
                     Cinematic short-form content focused
-                    on luxury lifestyle, atmosphere,
-                    composition and premium visual
-                    storytelling.
+                    on luxury fashion, atmosphere,
+                    composition and premium visual.
+                    
                 </p>
 
 
@@ -379,12 +422,10 @@
 
 
                 <a
-                    href="https://www.tiktok.com/@lux_frame1/video/7673145643053157639"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
+                    href="#"
+                    class="project-link fashion-trigger"
                 >
-                    WATCH VIDEO →
+                    VIEW VIDEOS →
                 </a>
 
             </div>
@@ -400,10 +441,8 @@
         <article class="project-card">
 
             <a
-                href="https://vt.tiktok.com/ZSqRQqtVa/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="project-media"
+                href="#"
+                class="project-media property-trigger"
             >
 
                 <img
@@ -421,7 +460,7 @@
                     </span>
 
                     <span>
-                        TIKTOK
+                        PROPERTY
                     </span>
 
                 </div>
@@ -435,11 +474,11 @@
                 <div class="project-bottom">
 
                     <span>
-                        INTERIOR DESIGN
+                        PROPERTY DESIGN
                     </span>
 
                     <span>
-                        40K+
+                        8 VIDEOS
                     </span>
 
                 </div>
@@ -451,19 +490,19 @@
             <div class="project-info">
 
                 <div class="project-category">
-                    INTERIOR DESIGN
+                    PROPERTY DESIGN
                 </div>
 
 
                 <h2>
-                    Luxury Interior
+                    Property
                     <br>
                     Design
                 </h2>
 
 
                 <p>
-                    Short-form interior content focused
+                    Short-form property content focused
                     on architecture, atmosphere,
                     composition and luxury presentation.
                 </p>
@@ -483,12 +522,10 @@
 
 
                 <a
-                    href="https://vt.tiktok.com/ZSqRQqtVa/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
+                    href="#"
+                    class="project-link property-trigger"
                 >
-                    WATCH VIDEO →
+                    VIEW VIDEOS →
                 </a>
 
             </div>
@@ -505,8 +542,7 @@
 
             <a
                 href="#"
-                class="project-media video-trigger"
-                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788620237/Travel_Vlog.mp4"
+                class="project-media travel-trigger"
             >
 
                 <img
@@ -524,7 +560,7 @@
                     </span>
 
                     <span>
-                        TRAVEL
+                        TRAVEL&EVENT
                     </span>
 
                 </div>
@@ -538,11 +574,11 @@
                 <div class="project-bottom">
 
                     <span>
-                        TRAVEL VLOG
+                        TRAVEL &amp; EVENT
                     </span>
 
                     <span>
-                        WATCH VIDEO
+                        2 VIDEOS
                     </span>
 
                 </div>
@@ -554,19 +590,19 @@
             <div class="project-info">
 
                 <div class="project-category">
-                    TRAVEL
+                    TRAVEL &amp; EVENT
                 </div>
 
 
                 <h2>
-                    Travel
+                    Travel &amp;
                     <br>
-                    Storytelling
+                    Event
                 </h2>
 
 
                 <p>
-                    Short-form travel content built around
+                    Short-long travel and event content built around
                     visual storytelling, pacing and atmosphere,
                     transforming travel footage into engaging
                     visual stories.
@@ -588,10 +624,9 @@
 
                 <a
                     href="#"
-                    class="project-link video-trigger"
-                    data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788620237/Travel_Vlog.mp4"
+                    class="project-link travel-trigger"
                 >
-                    WATCH VIDEO →
+                    VIEW VIDEOS →
                 </a>
 
             </div>
@@ -644,7 +679,7 @@
                     </span>
 
                     <span>
-                        4 VIDEOS
+                        10 VIDEOS
                     </span>
 
                 </div>
@@ -799,6 +834,106 @@
         </article>
 
 
+
+        <!-- =================================================
+             PROJECT 06 — MOTION
+        ================================================== -->
+
+        <article class="project-card">
+
+            <a
+                href="#"
+                class="project-media motion-trigger"
+            >
+
+                <img
+                    src="assets/images/motion.png"
+                    alt="Motion Graphics"
+                >
+
+                <div class="project-overlay"></div>
+
+
+                <div class="project-top">
+
+                    <span>
+                        06
+                    </span>
+
+                    <span>
+                        MOTION
+                    </span>
+
+                </div>
+
+
+                <div class="project-play">
+                    ▶
+                </div>
+
+
+                <div class="project-bottom">
+
+                    <span>
+                        MOTION GRAPHICS
+                    </span>
+
+                    <span>
+                        2 VIDEOS
+                    </span>
+
+                </div>
+
+            </a>
+
+
+
+            <div class="project-info">
+
+                <div class="project-category">
+                    MOTION
+                </div>
+
+
+                <h2>
+                    Motion
+                    <br>
+                    Graphics
+                </h2>
+
+
+                <p>
+                    Animated short-form content combining
+                    motion graphics, kinetic typography and
+                    dynamic transitions to bring ideas to life.
+                </p>
+
+
+                <div class="project-result">
+
+                    <span>
+                        ROLE
+                    </span>
+
+                    <strong>
+                        Video Editor
+                    </strong>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    class="project-link motion-trigger"
+                >
+                    VIEW VIDEOS →
+                </a>
+
+            </div>
+
+        </article>
+
+
     </div>
 
 </section>
@@ -846,6 +981,10 @@
 
                     <li>
                         Short-form Video
+                    </li>
+
+                    <li>
+                        Long-form &amp; Event Video
                     </li>
 
                     <li>
@@ -933,19 +1072,11 @@
                 <ul>
 
                     <li>
-                        Team Coordination
+                        CapCut PC
                     </li>
 
                     <li>
-                        Problem Solving
-                    </li>
-
-                    <li>
-                        Scheduling
-                    </li>
-
-                    <li>
-                        Microsoft Excel
+                        DaVinci
                     </li>
 
                     <li>
@@ -953,7 +1084,7 @@
                     </li>
 
                     <li>
-                        CapCut PC
+                        3D Blender
                     </li>
 
                 </ul>
@@ -1095,6 +1226,54 @@
 
 <footer>
 
+    <div class="footer-brand">
+
+        <span class="fox-logo">
+
+            <img
+                src="assets/images/logo-fox.png"
+                alt=""
+                width="470"
+                height="470"
+            >
+
+            <svg
+                class="fox-eyes"
+                viewBox="0 0 470 470"
+                aria-hidden="true"
+                focusable="false"
+            >
+
+                <defs>
+                    <filter id="fox-eye-glow-footer" x="-50%" y="-80%" width="200%" height="260%">
+                        <feGaussianBlur stdDeviation="4" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+
+                <g filter="url(#fox-eye-glow-footer)">
+                    <path class="fox-eye" d="M141,265 C152,263 162,264 168,269 C176,274 184,280 189,287 C193,292 196,297 198,301 C190,300 180,296 172,291 C162,285 154,279 149,272 C146,269 143,267 141,265 Z"/>
+                    <path class="fox-eye" d="M331,265 C320,263 310,264 304,269 C296,274 288,280 283,287 C279,292 276,297 274,301 C282,300 292,296 300,291 C310,285 318,279 323,272 C326,269 329,267 331,265 Z"/>
+                </g>
+
+            </svg>
+
+        </span>
+
+        <strong class="footer-brand-name">
+            GILANG ANDRE
+        </strong>
+
+        <span class="footer-brand-role">
+            VIDEO EDITOR
+        </span>
+
+    </div>
+
+
     <div class="footer-container">
 
         <span>
@@ -1144,6 +1323,746 @@
 
 
 <!-- =====================================================
+     PROJECT 01 — FASHION MODAL
+===================================================== -->
+
+<div
+    class="showcase-modal"
+    id="fashionModal"
+>
+
+    <button
+        class="showcase-modal-close"
+        id="fashionModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
+
+
+    <div class="showcase-modal-content">
+
+
+        <div class="showcase-heading">
+
+            <span>
+                FASHION
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
+
+        </div>
+
+
+        <div class="showcase-grid">
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792247715/luxuryfashion..mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792247715/luxuryfashion..mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    01
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        FASHION VISUAL 01
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792135004/Fashion.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792135004/Fashion.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    02
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        FASHION VISUAL 02
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792254250/voguefashion.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792254250/voguefashion.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    03
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        FASHION VISUAL 03
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <!-- Video TikTok: dibuka di tab baru -->
+
+            <button
+                class="showcase-card"
+                data-link="https://www.tiktok.com/@lux_frame1/video/7673145643053157639"
+            >
+
+                <img
+                    src="assets/images/luxury.jpg"
+                    alt="Fashion on TikTok"
+                    loading="lazy"
+                >
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    04
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH ON TIKTOK ↗
+                    </strong>
+
+                    <p class="showcase-desc">
+                        This fashion video reached
+                        852K+ views on TikTok. Click to watch.
+                    </p>
+
+                    <small>
+                        FASHION VISUAL 04 — 852K+ VIEWS
+                    </small>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     PROJECT 02 — PROPERTY DESIGN MODAL
+===================================================== -->
+
+<div
+    class="showcase-modal"
+    id="propertyModal"
+>
+
+    <button
+        class="showcase-modal-close"
+        id="propertyModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
+
+
+    <div class="showcase-modal-content">
+
+
+        <div class="showcase-heading">
+
+            <span>
+                PROPERTY DESIGN
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
+
+        </div>
+
+
+        <div class="showcase-grid">
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226872/145.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226872/145.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    01
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 01
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226924/140.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226924/140.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    02
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 02
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226969/109.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792226969/109.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    03
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 03
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227094/139.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227094/139.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    04
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 04
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227129/126.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227129/126.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    05
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 05
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227255/125.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227255/125.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    06
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 06
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227318/123.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792227318/123.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    07
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        PROPERTY VISUAL 07
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <!-- Video TikTok: dibuka di tab baru -->
+
+            <button
+                class="showcase-card"
+                data-link="https://vt.tiktok.com/ZSqRQqtVa/"
+            >
+
+                <img
+                    src="assets/images/interior.jpeg"
+                    alt="Property Design on TikTok"
+                    loading="lazy"
+                >
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    08
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH ON TIKTOK ↗
+                    </strong>
+
+                    <p class="showcase-desc">
+                        This property design video reached
+                        40K+ views on TikTok. Click to watch.
+                    </p>
+
+                    <small>
+                        PROPERTY VISUAL 08 — 40K+ VIEWS
+                    </small>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     PROJECT 03 — TRAVEL & EVENT MODAL
+===================================================== -->
+
+<div
+    class="showcase-modal"
+    id="travelModal"
+>
+
+    <button
+        class="showcase-modal-close"
+        id="travelModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
+
+
+    <div class="showcase-modal-content">
+
+
+        <div class="showcase-heading">
+
+            <span>
+                TRAVEL &amp; EVENT
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
+
+        </div>
+
+
+        <div class="showcase-grid">
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788620237/Travel_Vlog.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788620237/Travel_Vlog.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    01
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        TRAVEL VLOG
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-youtube="WAfKqEUP4uI"
+            >
+
+                <img
+                    src="https://i.ytimg.com/vi/WAfKqEUP4uI/hqdefault.jpg"
+                    alt="Deklarasi Yakuza Salatiga"
+                    loading="lazy"
+                >
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    02
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH ON YOUTUBE ↗
+                    </strong>
+
+                    <small>
+                        EVENT — DEKLARASI YAKUZA SALATIGA
+                    </small>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     PROJECT 06 — MOTION MODAL
+===================================================== -->
+
+<div
+    class="showcase-modal"
+    id="motionModal"
+>
+
+    <button
+        class="showcase-modal-close"
+        id="motionModalClose"
+        aria-label="Close"
+    >
+        ×
+    </button>
+
+
+    <div class="showcase-modal-content">
+
+
+        <div class="showcase-heading">
+
+            <span>
+                MOTION
+            </span>
+
+            <h2>
+                Visual Showcase
+            </h2>
+
+        </div>
+
+
+        <div class="showcase-grid">
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792134973/DonutMotion2.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792134973/DonutMotion2.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    01
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        MOTION VISUAL 01
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895771/text_motion.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895771/text_motion.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    02
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        MOTION VISUAL 02
+                    </small>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
      PROJECT 04 — AUTOMOTIVE MODAL
 ===================================================== -->
 
@@ -1181,11 +2100,11 @@
 
             <button
                 class="showcase-card"
-                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788621664/automotive-01.mp4"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895492/hdci_salatiga_semarang.mp4"
             >
 
                 <video
-                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788621664/automotive-01.mp4"
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895492/hdci_salatiga_semarang.mp4"
                     muted
                     loop
                     playsinline
@@ -1216,11 +2135,11 @@
 
             <button
                 class="showcase-card"
-                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622326/automotive-02.mp4"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895532/salatiga_supercarr.mp4"
             >
 
                 <video
-                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622326/automotive-02.mp4"
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895532/salatiga_supercarr.mp4"
                     muted
                     loop
                     playsinline
@@ -1251,11 +2170,11 @@
 
             <button
                 class="showcase-card"
-                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622447/automotive-03.mp4"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895670/mc_laren.mp4"
             >
 
                 <video
-                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622447/automotive-03.mp4"
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1791895670/mc_laren.mp4"
                     muted
                     loop
                     playsinline
@@ -1286,11 +2205,11 @@
 
             <button
                 class="showcase-card"
-                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788804430/fitra_eri_GT3RS.mp4"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622326/automotive-02.mp4"
             >
 
                 <video
-                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788804430/fitra_eri_GT3RS.mp4"
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622326/automotive-02.mp4"
                     muted
                     loop
                     playsinline
@@ -1318,11 +2237,222 @@
             </button>
 
 
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792228532/nightcarssalatiga.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792228532/nightcarssalatiga.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    05
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 05
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792256203/speedramp3.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792256203/speedramp3.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    06
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 06
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1792256234/e39.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1792256234/e39.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    07
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 07
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622447/automotive-03.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788622447/automotive-03.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    08
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 08
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788621664/automotive-01.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788621664/automotive-01.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    09
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 09
+                    </small>
+
+                </div>
+
+            </button>
+
+
+
+            <button
+                class="showcase-card"
+                data-video="https://res.cloudinary.com/xwvin0gh/video/upload/v1788804430/fitra_eri_GT3RS.mp4"
+            >
+
+                <video
+                    src="https://res.cloudinary.com/xwvin0gh/video/upload/v1788804430/fitra_eri_GT3RS.mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+
+                <div class="showcase-overlay"></div>
+
+                <span class="showcase-number">
+                    10
+                </span>
+
+                <div class="showcase-info">
+
+                    <strong>
+                        WATCH VIDEO
+                    </strong>
+
+                    <small>
+                        AUTOMOTIVE VISUAL 10
+                    </small>
+
+                </div>
+
+            </button>
+
+
         </div>
 
     </div>
 
 </div>
+
 
 
 <!-- =====================================================
